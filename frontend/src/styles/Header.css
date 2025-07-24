@@ -1,0 +1,55 @@
+.header-container {
+  background-color: #00a65a;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* Top row: Logo (left) + Sign Up (right) */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.signup {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color: #007d48;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.signup:hover {
+  background-color: #005f36;
+}
+
+/* Bottom row: Left-aligned navigation links */
+.header-bottom {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 30px;
+  gap: 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header-bottom a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header-bottom a:hover {
+  text-decoration: underline;
+}
