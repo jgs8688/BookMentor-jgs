@@ -73,6 +73,8 @@ import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import Home from './components/Home.jsx';
 import Recommend from './components/Recommend.jsx';
+import SignIn from "./components/SignIn";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
@@ -81,6 +83,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/recommend" element={<Recommend />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
       <Footer />
     </>
